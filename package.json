@@ -2,24 +2,13 @@
   "name": "vuepress-theme-meteorlxy",
   "version": "1.0.0-alpha.5",
   "description": "Vuepress theme - Meteorlxy",
-  "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "index.js",
   "keywords": [
     "vuepress",
     "theme"
   ],
-  "homepage": "https://github.com/meteorlxy/vuepress-theme-meteorlxy",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meteorlxy/vuepress-theme-meteorlxy.git"
-  },
-  "bugs": {
-    "url": "https://github.com/meteorlxy/vuepress-theme-meteorlxy/issues"
-  },
   "scripts": {
-    "dev": "vuepress dev docs --temp .temp",
-    "build": "vuepress build docs --dest docs-dist",
     "lint": "eslint --fix --ext .js,.vue ."
   },
   "husky": {
